@@ -3,10 +3,13 @@
     {
       "source": "/test",
       "destination": "/"
-    },
+    }
+  ],
+  "redirects": [
     {
       "source": "/test2/:path*",
-      "destination": "https://kenreigh-one.figma.site/"
+      "destination": "https://example.com/target-url/:path*",
+      "permanent": false
     }
   ]
 }
