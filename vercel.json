@@ -6,7 +6,7 @@
     },
     {
       "source": "/test2/:path*",
-      "destination": "https://kenreigh-one.figma.site/:path*"
+      "destination": "https://kenreigh-one.figma.site/"
     }
   ]
 }
