@@ -1,15 +1,11 @@
 {
-  "rewrites": [
+  "rewrites": 
+  [
     {
       "source": "/test",
-      "destination": "https://seekenreigh.figma.site/"
+      "destination": "/"
+      "source": "/test2/:path*",
+      "destination": "https://seekenreigh.figma.site/:path*"
     }
   ],
-  "redirects": [
-    {
-      "source": "/test2/:path*",
-      "destination": "https://seekenreigh.figma.site/:path*",
-      "permanent": true
-    }
-  ]
 }
